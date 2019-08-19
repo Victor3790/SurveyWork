@@ -29,5 +29,8 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
 }
