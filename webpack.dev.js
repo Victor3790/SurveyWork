@@ -5,6 +5,7 @@ module.exports = {
   entry: [path.resolve(__dirname,'src/entry.js'),path.resolve(__dirname,'src/devEntry.js')],
   mode: 'development',
   devServer: {
+    host: '0.0.0.0',
     hot: true
   },
   module: {
@@ -18,7 +19,7 @@ module.exports = {
         use: ['html-loader']
       },
       {
-        test: /\.(svg|png|jpg|gif)$/,
+        test: /\.(ttf|svg|png|jpg|gif)$/,
         use: ['file-loader']
       }
     ]

@@ -43,6 +43,15 @@ module.exports = {
               outputPath: 'imgs'
             }
           }
+        },
+        {
+          test: /\.(ttf)$/,
+          use: {
+            loader: 'file-loader',
+            options: {
+              outputPath: 'fonts'
+            }
+          }
         }
       ]
     },

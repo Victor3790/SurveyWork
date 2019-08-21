@@ -1,6 +1,9 @@
 //Colors
 $yellow: #fbdd00;
+$orange: #fec32b;
 $blue: #2a4f79;
+$blueBackground: #0d2b69;
+$gray: #c9cbca;
 
 //bootstrap imports
 @import "~bootstrap/scss/functions";
@@ -14,26 +17,77 @@ $blue: #2a4f79;
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
+@font-face {
+  font-family: "eurostileLTMedium";
+  src: url("../fonts/Eurostile LT Medium.ttf");
+}
+
+@font-face {
+  font-family: "eurostileLTBold";
+  src: url("../fonts/Eurostile LT Bold.ttf");
+}
+
+@font-face {
+  font-family: "eurostileLTDemi";
+  src: url("../fonts/Eurostile LT Demi.ttf");
+}
+
 body{
-  min-width: 575px;
-  overflow: hidden;
+  min-width: 360px;
+  font-family: 'eurostileLTMedium', sans-serif;
+}
+
+h1, h2{
+  font-family: 'eurostileLTBold', sans-serif;
+}
+
+h2{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+  padding: 2%;
+}
+
+h3{
+  font-family: 'eurostileLTDemi', sans-serif;
 }
 
 img{
   display: block;
+}
+
+.contact{
   width: 100%;
+  padding: 0 20px;
+  font-size: 0.5rem;
+  overflow: hidden;
+  justify-content: space-between;
+  div{
+    overflow: hidden;
+    img, p{
+      float: left;
+    }
+  }
+  .icon{
+    width: 20px;
+    margin: 0 10px;
+  }
 }
 
 header{
   background-color: $yellow;
   #smallMenuIcon{
-    width: 10%;
+    width: 15%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0;
     overflow: hidden;
     div{
-      width: 55%;
+      width: 50%;
+      min-width: 30px;
       .bar{
         width: 100%;
         height: 3px;
@@ -43,30 +97,19 @@ header{
     }
   }
   #logo{
-    width: 30%;
+    width: 100%;
+    img{
+      width: 50%;
+      margin: 0 auto;
+    }
   }
   #text{
-    width: 60%;
-    font-size: 0.7rem;
-    text-align: center;
-    #head{
-      margin-top: 5px;
-      p{
-        margin-bottom: 10px;
-      }
-    }
-    #contact{
-      width: 100%;
-      overflow: hidden;
-      img, p{
-        float: left;
-      }
-      .icon{
-        width: 25px;
-        margin: 0 10px;
-      }
-    }
+    display: none;
   }
+}
+
+nav{
+  display: none;
 }
 
 #hero{
@@ -76,6 +119,153 @@ header{
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
+  div{
+    width: 50%;
+    position: relative;
+    left: 55%;
+    top: 60%;
+    overflow: hidden;
+    img{
+      width: 80%;
+    }
+    h1{
+      width: 50%;
+      font-size: 1.2rem;
+      color: white;
+      margin: 20px 0 0 10px;
+      text-align: center;
+    }
+  }
+}
+
+#services{
+  .servicesTitle{
+    background-color: $yellow;
+    h2{
+      color: $blue;
+    }
+  }
+  .servicesBody{
+    background-image: url('../imgs/fondo1_800.jpg');
+    padding-bottom: 10%;
+    .blackBox{
+      display: flex;
+      flex-direction: column;
+      padding: 10% 5%;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-top: 6%;
+    }
+    h3, h4{
+      color: $yellow;
+      text-align: center;
+    }
+    img{
+      width: 80px;
+      margin: 0 auto;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+    p, li{
+      text-align: center;
+      color: white;
+    }
+    li{
+      text-align: left;
+    }
+  }
+}
+
+#business{
+  .businessBody{
+    p{
+      margin: 7% 0;
+    }
+    strong{
+      font-family: 'eurostileLTDemi';
+    }
+    #imgBusiness{
+      img{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 7%;
+        margin-bottom: 7%;
+      }
+    }
+  }
+}
+
+#worker{
+  background-image: url('../imgs/trabajador800.jpg');
+  background-size: cover;
+  padding: 15%;
+  img{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+}
+
+#autocad{
+  background-image: url('../imgs/fondo3_800.jpg');
+  background-size: contain;
+  overflow: hidden;
+  padding-top: 10%;
+  padding-bottom: 10px;
+  .blueBox{
+    background-color: $blueBackground;
+    color: white;
+    width: 95%;
+    font-size: 0.7rem;
+    padding: 3%;
+    margin: 0 auto;
+    order: 1;
+    img{
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+  #computer{
+    order: 2;
+    margin-top: 10%;
+    img{
+      width: 100%;
+    }
+  }
+}
+
+#brands{
+  .brandsTitle{
+    background-color: $blueBackground;
+    color: white;
+  }
+  .brandsBody{
+    padding: 7% 0;
+    img{
+      width: 40%;
+    }
+  }
+}
+
+footer{
+  background-color: $blueBackground;
+  padding: 7% 0;
+  img{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+}
+
+#footerContact{
+  color: white;
+  font-size: 0.6rem;
+}
+
+#footerMenu{
+  color: $yellow;
+  display: none;
 }
 
 @import "small";
