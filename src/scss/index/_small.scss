@@ -1,0 +1,53 @@
+// Small devices (landscape phones, 576px and up)
+@include media-breakpoint-up(sm){
+  #hero1{
+    img{
+      width: 40%;
+      top: 40%;
+      left: 50%;
+    }
+  }
+
+  #heroMore{
+    left: 50%;
+  }
+
+  #services{
+    .servicesBody{
+      padding: 5%;
+      .col-sm-8{
+        margin: 0 auto;
+      }
+    }
+  }
+
+  #autocad{
+    height: 500px;
+    padding: 0;
+    .container-fluid, .row{
+      height: 100%;
+    }
+    .blueBox{
+      width: 100%;
+      padding: 7%;
+      position: relative;
+      top: 10%;
+      left: 4%;
+      margin: 0;
+      img{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+      }
+    }
+    #computer{
+      margin: 0;
+      padding-top: 285px;
+      img{
+        width: 400px;
+        position: absolute;
+        right: 0;
+      }
+    }
+  }
+}

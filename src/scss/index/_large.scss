@@ -1,0 +1,31 @@
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+  .hero{
+    height: 600px;
+  }
+
+  #services{
+    .servicesBody{
+      .blackBox{
+        p, li{
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+  #autocad{
+    .blueBox{
+      width: 70%;
+      bottom: 25%;
+      left: 30%;
+      padding: 3% 5%;
+    }
+    #computer{
+      padding-top: 200px;
+      img{
+        width: 550px;
+      }
+    }
+  }
+}

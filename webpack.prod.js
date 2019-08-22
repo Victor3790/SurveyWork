@@ -8,7 +8,10 @@ const webpack = require('webpack')
 
 module.exports = {
     mode: 'production',
-    entry: path.resolve(__dirname, 'src/entry.js'),
+    entry: {
+      indexEntry: './src/indexEntry.js',
+      cursosEntry: './src/cursosEntry.js'
+    },
     output: {
       filename: 'js/[name].js'
     },
@@ -34,7 +37,14 @@ module.exports = {
         },
         {
           test: /\.html$/,
-          use: ['html-loader']
+          use: [
+            {
+              loader: 'html-loader',
+              options: {
+                name: '[name].[ext]'
+              }
+            }
+          ]
         },
         {
           test: /\.(svg|png|jpg|gif)$/,
@@ -60,7 +70,22 @@ module.exports = {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: path.resolve(__dirname, 'src/index.html')
+        filename: 'index.html',
+        template: path.resolve(__dirname, 'src/index.html'),
+        chunks: ['indexEntry']
+        /*minify: {
+          collapseWhitespace: true,
+          removeComments: true,
+          removeRedundantAttributes: true,
+          removeScriptTypeAttributes: true,
+          removeStyleLinkTypeAttributes: true,
+          useShortDoctype: true
+        }*/
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'cursos.html',
+        template: path.resolve(__dirname, 'src/cursos.html'),
+        chunks: ['cursosEntry']
         /*minify: {
           collapseWhitespace: true,
           removeComments: true,

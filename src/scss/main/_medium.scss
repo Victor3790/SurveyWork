@@ -1,0 +1,22 @@
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+  header{
+    #smallMenuIcon{
+      div{
+        width: 45%;
+        .bar{
+          margin: 9px 0;
+        }
+      }
+    }
+    #text{
+      font-size: 0.8rem;
+      #head{
+        margin-top: 10px;
+        p{
+          margin-bottom: 5%;
+        }
+      }
+    }
+  }
+}

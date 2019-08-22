@@ -1,0 +1,68 @@
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+  #hero1{
+    background-image: url('../imgs/index/banner1_1600.jpg');
+  }
+
+  #hero2{
+    background-image: url('../imgs/index/banner2_1600.jpg');
+  }
+
+  #heroMore{
+    left: 60%;
+    top: 75%;
+  }
+
+  #services{
+    .servicesBody{
+      background-image: url('../imgs/index/fondo1_1600.jpg');
+      .blackBox{
+        height: 450px;
+        h3{
+          font-size: 1.3rem;
+        }
+        h4{
+          font-size: 1rem;
+        }
+        p,li{
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+
+  #business{
+    #imgBusiness{
+      order: 1;
+      display: flex;
+      align-items: center;
+    }
+    #txtBusiness{
+      order: 2;
+    }
+  }
+
+  #worker{
+    background-image: url('../imgs/index/trabajador1600.jpg');
+    padding: 1%;
+  }
+
+  #autocad{
+    background-image: url('../imgs/index/fondo3_2000.jpg');
+    .blueBox{
+      top: 15%;
+      left: 10%;
+    }
+    #computer{
+      padding-top: 230px;
+      img{
+        width: 500px;
+      }
+    }
+  }
+
+  .brandButton{
+    width: 40px !important;
+    top: 8px;
+  }
+}
