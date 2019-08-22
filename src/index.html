@@ -58,19 +58,43 @@
   <nav>
     <ul>
       <li>INICIO</li>
-      <li>LA EMPRESA</li>
-      <li>SERVICIOS Y CURSOS</li>
+      <li><a href="#services">LA EMPRESA</a></li>
+      <li><a href="#business">SERVICIOS Y CURSOS</a></li>
       <li>CONTACTO</li>
     </ul>
   </nav>
 
+  <div id="smallMenu">
+    <span class="close"></span>
+    <ul>
+      <li>INICIO</li>
+      <li><a href="#services">LA EMPRESA</a></li>
+      <li><a href="#business">SERVICIOS Y CURSOS</a></li>
+      <li>CONTACTO</li>
+    </ul>
+  </div>
+
   <main>
 
-    <section id="hero">
-      <div>
-        <img src="imgs/heroImage.png" alt="">
-      </div>
-    </section>
+      <!-- Slider main container -->
+    <div id="banners" class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="hero" id="hero1">
+                <img src="imgs/heroImage.png" alt="">
+                <div id="heroMore"><h3>Ver más +</h3></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="hero" id="hero2"></div>
+            </div>
+        </div>
+        <img id="nextHero" class="heroButton" src="imgs/yellowRight.png" alt="">
+        <img id="prevHero" class="heroButton" src="imgs/yellowLeft.png" alt="">
+    </div>
+
 
     <section id="services">
       <div class="servicesTitle">
@@ -225,12 +249,29 @@
         </div>
       </div>
       <div class="brandsBody">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col">
-              <img src="imgs/marca1.png" alt="">
+        <!-- Slider main container -->
+        <div id="brandLogos" class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img class="brandImg" src="imgs/marca1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="brandImg" src="imgs/marca2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="brandImg" src="imgs/marca3.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="brandImg" src="imgs/marca4.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="brandImg" src="imgs/marca5.png" alt="">
+                </div>
             </div>
-          </div>
+            <img id="nextBrand" class="brandButton" src="imgs/blueLeft.png" alt="">
+            <img id="prevBrand" class="brandButton" src="imgs/blueRight.png" alt="">
         </div>
       </div>
     </section>
@@ -244,8 +285,8 @@
           <div id="footerMenu" class="col col-lg-4">
             <ul>
               <li>INICIO</li>
-              <li>LA EMPRESA</li>
-              <li>SERVICIOS Y CURSOS</li>
+              <li><a href="#services">LA EMPRESA</a></li>
+              <li><a href="#business">SERVICIOS Y CURSOS</a></li>
               <li>CONTACTO</li>
             </ul>
           </div>

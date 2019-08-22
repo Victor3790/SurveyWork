@@ -1,12 +1,12 @@
 // Extra large devices (large desktops, 1200px and up)
-@include media-breakpoint-up(xl) {
+@include media-breakpoint-up(xl)  {
   header{
     #text{
       font-size: 0.7rem;
     }
   }
 
-  #hero{
+  .hero{
     height: 700px;
   }
 

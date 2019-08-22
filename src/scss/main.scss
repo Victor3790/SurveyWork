@@ -14,6 +14,9 @@ $gray: #c9cbca;
 @import "~bootstrap/scss/type";
 @import "~bootstrap/scss/grid";
 
+//Import swiper
+@import "~swiper/src/swiper";
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
@@ -112,30 +115,103 @@ nav{
   display: none;
 }
 
-#hero{
-  width: 100%;
-  height: 450px;
-  background-image: url('../imgs/banner1_800.jpg');
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-  div{
-    width: 50%;
-    position: relative;
-    left: 50%;
-    top: 60%;
-    overflow: hidden;
-    img{
-      width: 80%;
-    }
-    h1{
-      width: 50%;
-      font-size: 1.2rem;
-      color: white;
-      margin: 20px 0 0 10px;
+#smallMenu{
+  background-color: $blueBackground;
+  position: fixed;
+  top: 0;
+  color: white;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  transition: max-width .1s;
+  z-index: 101;
+  ul{
+    display: flex;
+    flex-direction: column;
+    margin: 20% 0;
+    padding: 0;
+    li{
+      list-style: none;
+      width: 100%;
       text-align: center;
+      margin: 20px 0;
+    }
+    a{
+      color: white;
     }
   }
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 32px;
+  height: 32px;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 3px;
+  background-color: white;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+#hero1{
+  background-image: url('../imgs/banner1_800.jpg');
+  img{
+    width: 60%;
+    position: relative;
+    top: 40%;
+    left: 40%;
+  }
+}
+
+#hero2{
+  background-image: url('../imgs/banner2_800.jpg');
+}
+
+#heroMore{
+  padding: 9px;
+  background-color: $orange;
+  position: absolute;
+  left: 45%;
+  top: 70%;
+  color: $blue;
+}
+
+.hero{
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.heroButton{
+  width: 50px;
+  position: absolute;
+  top: 35%;
+  z-index: 100;
+  cursor: pointer;
+}
+
+#nextHero{
+  right: 1%;
+}
+
+#prevHero{
+  left: 1%;
 }
 
 #services{
@@ -243,9 +319,29 @@ nav{
   .brandsBody{
     padding: 7% 0;
     img{
-      width: 40%;
+      width: 50%;
     }
   }
+}
+
+.brandImg{
+  margin: 0 auto;
+}
+
+.brandButton{
+  width: 30px !important;
+  position: absolute;
+  top: 20px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+#nextBrand{
+  right: 1%;
+}
+
+#prevBrand{
+  left: 1%;
 }
 
 footer{

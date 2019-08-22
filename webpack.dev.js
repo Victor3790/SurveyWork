@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const webpack = require('webpack')
 
 module.exports = {
   entry: [path.resolve(__dirname,'src/entry.js'),path.resolve(__dirname,'src/devEntry.js')],
@@ -28,6 +29,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Dev',
       template: path.resolve(__dirname,'src/index.html')
+    }),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      Swiper: 'swiper'
     })
   ]
 };

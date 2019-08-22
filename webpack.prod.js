@@ -4,12 +4,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin')
 const TerserWebpackPlugin = require('terser-webpack-plugin')
+const webpack = require('webpack')
 
 module.exports = {
     mode: 'production',
     entry: path.resolve(__dirname, 'src/entry.js'),
     output: {
-      filename: 'js/[name].[hash].js'
+      filename: 'js/[name].js'
     },
     optimization: {
       minimizer: [
@@ -40,7 +41,8 @@ module.exports = {
           use: {
             loader: 'file-loader',
             options: {
-              outputPath: 'imgs'
+              outputPath: 'imgs',
+              name: '[name].[ext]'
             }
           }
         },
@@ -49,7 +51,8 @@ module.exports = {
           use: {
             loader: 'file-loader',
             options: {
-              outputPath: 'fonts'
+              outputPath: 'fonts',
+              name: '[name].[ext]'
             }
           }
         }
@@ -57,19 +60,23 @@ module.exports = {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: path.resolve(__dirname, 'src/index.html'),
-        minify: {
+        template: path.resolve(__dirname, 'src/index.html')
+        /*minify: {
           collapseWhitespace: true,
           removeComments: true,
           removeRedundantAttributes: true,
           removeScriptTypeAttributes: true,
           removeStyleLinkTypeAttributes: true,
           useShortDoctype: true
-        }
+        }*/
       }),
       new MiniCssExtractPlugin({
-        filename: 'css/[name].[hash].css'
+        filename: 'css/[name].css'
       }),
-      new CleanWebpackPlugin()
+      new CleanWebpackPlugin(),
+      new webpack.ProvidePlugin({
+        $: 'jquery',
+        Swiper: 'swiper'
+      })
     ]
 };

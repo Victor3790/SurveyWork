@@ -20,13 +20,18 @@
     }
   }
 
-  #hero{
+  #hero1{
     background-image: url('../imgs/banner1_1600.jpg');
-    div{
-      top: 40%;
-    }
   }
 
+  #hero2{
+    background-image: url('../imgs/banner2_1600.jpg');
+  }
+
+  #heroMore{
+    left: 60%;
+    top: 75%;
+  }
 
   #services{
     .servicesBody{
@@ -74,5 +79,10 @@
         width: 500px;
       }
     }
+  }
+
+  .brandButton{
+    width: 40px !important;
+    top: 8px;
   }
 }
