@@ -167,6 +167,12 @@ nav{
   transform: rotate(-45deg);
 }
 
+.orangeButton{
+  padding: 9px;
+  background-color: $orange;
+  color: $blue;
+}
+
 footer{
   background-color: $blueBackground;
   padding: 7% 0;

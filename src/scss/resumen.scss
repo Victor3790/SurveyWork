@@ -1,0 +1,64 @@
+//Import main
+@import "main";
+@import "cursos";
+
+#topBanner{
+  background-image: url('../imgs/resumen/banner_top800.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#bottomBanner{
+  background-image: url('../imgs/resumen/trabajador800.jpg');
+  background-size: cover;
+}
+
+#cursos{
+  img{
+    width: 100%;
+  }
+  .curso{
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .tituloCurso{
+    padding: 3% 2%;
+    background-color: $blueBackground;
+    h2{
+      color: #f1f1f1;
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+  .contenidoCurso{
+    padding: 7% 0;
+  }
+  .buttonSection{
+    .row{
+      .col-6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    h3,img{
+      float: left;
+    }
+    img{
+      width: 50px;
+    }
+  }
+  h3{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .imgCurso{
+    width: 100%;
+  }
+}
+
+@import 'resumen/small';
+@import 'resumen/medium';
+@import 'resumen/large';
+@import 'resumen/xLarge';

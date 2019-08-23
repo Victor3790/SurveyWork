@@ -1,4 +1,17 @@
 // Large devices (desktops, 992px and up)
 @include media-breakpoint-up(lg) {
-
+  .topBannerStyle{
+    padding: 10% 0 1% 0;
+    img:nth-child(1){
+      width: 30%;
+    }
+    img:nth-child(2){
+      width: 70%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    h1{
+      font-size: 1.5rem;
+    }
+  }
 }

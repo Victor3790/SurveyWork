@@ -1,0 +1,136 @@
+TEXTOS
+
+CURSOS Y CAPACITACIONES
+
+CURSO DE MS EXCEL MACROS - VBA – Nivel I
+
+Inicia el 05 de agosto del 2019
+Finaliza el 20 de agosto del 2019
+Modalidad: presencial
+Duración del curso: 24 horas.
+Horario: lunes a viernes de 6:00 pm a 8:00 pm
+
+Ver Contenido
+Ver más +
+CURSO DE PROGRAMACION EN AUTOCAD 
+CON AUTOLISP – Nivel I
+Inicia el 05 de agosto del 2019
+Finaliza el 20 de agosto del 2019
+Modalidad: presencial
+Duración del curso: 24 horas.
+Horario: lunes a viernes de 4:00 pm a 6:00 pm
+
+CURSO TEORICO Y PRACTICO DE TOPOGRAFIA 
+CON GNSS (GPS) DIFERENCIAL
+Inicia el 05 de agosto del 2019
+Finaliza el 20 de agosto del 2019
+Modalidad: presencial
+Duración del curso: 24 horas.
+Horario: lunes a viernes de 4:00 pm a 6:00 pm
+
+
+CURSO TEORICO Y PRACTICO DE TOPOGRAFIA 
+Y FOTOGRAMETRIA CON DRONE
+Inicia el 05 de agosto del 2019
+Finaliza el 20 de agosto del 2019
+Modalidad: presencial
+Duración del curso: 24 horas.
+Horario: lunes a viernes de 4:00 pm a 6:00 pm
+
+
+CURSO TEORICO Y PRACTICO DE CALIBRACION 
+LOCAL
+Inicia el 05 de agosto del 2019
+Finaliza el 20 de agosto del 2019
+Modalidad: presencial
+Duración del curso: 24 horas.
+Horario: lunes a viernes de 4:00 pm a 6:00 pm
+
+
+
+
+----------------DETALLE CURSO ------------------
+CURSO:
+PROGRAMACIÓN EN AUTOCAD
+
+
+CURSO DE PROGRAMACION EN AUTOCAD 
+CON AUTOLISP – Nivel I
+
+
+AutoLisp es un lenguaje de programación que procesa listas, de ahí su nombre: Lisp significa List Processor. Otros dicen con humor que Lisp significa Lost In Stupid Parenthesis. (Perdido en paréntesis estúpidos), ya que los paréntesis son los que abren y cierran todas las expresiones en AutoLisp, y si no se manejan bien, pues se producen errores en los programas.   AutoLisp continúa siendo el lenguaje favorito de miles de personas en todo el mundo, para desarrollar programas para AutoCAD, debido a su facilidad y versatilidad.    En AutoCAD, se accede al editor de AutoLisp con la orden VLIDE.  Los programas de AutoLisp se crean para cumplir las siguientes funciones:
+
+Reducir el tiempo que toma hacer tareas frecuentes y repetitivas en AutoCAD, como son: exportar o importar información, hacer cálculos numéricos, hacer cambios gráficos, imprimir un listado de dibujos, realizar listados de materiales, de cantidades, hacer cambios de textos, etc.
+
+Controlar por medio de rutinas AutoLisp los elementos que componen el juego de estándares gráficos de una oficina, como son: los estilos de textos, las dimensiones, las escalas, la inserción de bloques, etc.
+
+
+
+INFORMACIÓN GENERAL
+
+Inicia el 05 de agosto del 2019
+Finaliza el 20 de agosto del 2019
+Modalidad: presencial
+Duración del curso: 24 horas.
+Horario: Lunes a viernes de 
+4:00 pm a 6:00 pm
+
+
+
+> Solicitar Información
+
+
+
+
+Inscribirme
+
+Indispensable:
+El participante deberá traer su laptop que cumpla con los requerimientos del sistema.
+AutoCAD (puede ser 2000 hasta 2019) instalado en su equipo. Si no lo tiene, puede solicitar una versión de ensayo por 30 días d
+
+Consideraciones:
+La licencia del paquete es de responsabilidad del participante, no se otorgará licencia para el desarrollo del curso.
+SURVEY WORK SRL se reserva el derecho de realizar algún posible cambio en la programación del curso o cierre del curso en caso de no cumplir con el número mínimo de participantes.
+La certificación cuenta con la validez y el respaldo de la SURVEY WORK CAPACITACIONES
+
+Expositor del curso:
+Jaime R. Mercado
+Geólogo, ejerció la docencia por 5 años en el Instituto Sencico sede Arequipa y viene laborando por más de 15 años en el rubro de la minería, donde se aplica el AutoCAD como programa para realizar los diferentes formatos de trabajo de ingeniería; los cuales son automatizados con AutoLisp, Macros, VBA y otros programas especializados.
+
+Pre-requisitos para Nivel 1:
+Preferible: experiencia/conocimiento de AutoCAD Básico.
+Dirigido a:
+Este curso está dirigido a ingenieros, topógrafos, estudiantes, comunidad universitaria y público en general
+
+No se requiere:
+Experiencia anterior con otros lenguajes de programación
+
+
+.....
+
+PROCESO DE INSCRIPCIÓN
+
+1.	Llenar el formulario de inscripción
+
+2.	Enviar recibo de pago (*)
+(*) Enviar el recibo de pago escaneado al 
+correo de capacitaciones@surveywork.pe
+
+
+
+
+INVERSIÓN:
+Profesionales y Público en general: 
+(antes) S/ 365 soles, Ahora S/. 290 soles 
+por promoción de apertura.
+
+
+MODALIDADES DE PAGO:
+BCP: CTA. SOLES:  215-94676431-0-53
+00221519467643105321
+EFECTIVO: oficina Survey Work
+
+Cursos SURVEY WORK CAPACITACIONES
+E-mail: capacitaciones@surveywork.pe
+Teléfonos: (51-54) 398615 / Cel. 957878848
+

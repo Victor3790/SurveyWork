@@ -1,4 +1,5 @@
 import './scss/index.scss'
 import 'jquery'
 import 'swiper'
-import './js/functions.js'
+import './js/menu.js'
+import './js/index.js'

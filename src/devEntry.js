@@ -1,2 +1,2 @@
 import './index.html'
-import './cursos.html'
+import './resumen.html'

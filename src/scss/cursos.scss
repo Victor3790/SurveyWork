@@ -1,0 +1,33 @@
+.topBannerStyle{
+  padding: 7% 0;
+  img{
+    margin: 0 auto;
+  }
+  img:nth-child(2){
+    width: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  h1{
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 5%;
+  }
+}
+
+.bottomBannerStyle{
+  padding: 15%;
+  color: $blue;
+  img{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+}
+
+@import 'cursos/small';
+@import 'cursos/medium';
+@import 'cursos/large';
+@import 'cursos/xLarge';

@@ -1,4 +1,12 @@
 // Medium devices (tablets, 768px and up)
 @include media-breakpoint-up(md) {
-
+  .bottomBannerStyle{
+    padding:0 0 4% 0;
+    img{
+      width: 50%;
+      margin: 0 auto;
+      margin-top: 7%;
+      margin-bottom: 7%;
+    }
+  }
 }
