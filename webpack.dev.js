@@ -6,7 +6,8 @@ module.exports = {
   entry: {
     devEntry: './src/devEntry.js',
     indexEntry: './src/indexEntry.js',
-    resumenEntry: './src/resumenEntry.js'
+    resumenEntry: './src/resumenEntry.js',
+    cursoEntry: './src/cursoEntry.js'
   },//[path.resolve(__dirname,'src/entry.js'),path.resolve(__dirname,'src/devEntry.js')],
   mode: 'development',
   devServer: {
@@ -46,6 +47,11 @@ module.exports = {
       filename: 'resumen.html',
       template: path.resolve(__dirname,'src/resumen.html'),
       chunks: ['resumenEntry','devEntry']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'curso.html',
+      template: path.resolve(__dirname,'src/curso.html'),
+      chunks: ['cursoEntry','devEntry']
     }),
     new webpack.ProvidePlugin({
       $: 'jquery',

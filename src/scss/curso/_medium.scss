@@ -1,4 +1,9 @@
 // Medium devices (tablets, 768px and up)
 @include media-breakpoint-up(md) {
-
+  #topBanner{
+    background-image: url('../imgs/curso/banner_top2400.jpg');
+  }
+  #bottomBanner{
+    background-image: url('../imgs/curso/trabajador1600.jpg');
+  }
 }

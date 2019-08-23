@@ -9,4 +9,30 @@
       margin-bottom: 7%;
     }
   }
+
+  .infoCurso{
+    .curso{
+      position: relative;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .tituloCurso{
+      padding: 3% 2%;
+      h2{
+        width: 50%;
+        margin-left: 50%;
+      }
+    }
+    .contenidoCurso{
+      margin-left: 50%;
+    }
+    .buttonSection{
+      margin-left: 50%;
+    }
+    .imgCurso{
+      width: 50%;
+      position: absolute;
+      top: 0;
+    }
+  }
 }

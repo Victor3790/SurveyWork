@@ -1,0 +1,30 @@
+//Import main
+@import "main";
+@import "cursos";
+
+#topBanner{
+  background-image: url('../imgs/curso/banner_top800.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  h2{
+    color: white;
+  }
+}
+
+#bottomBanner{
+  background-image: url('../imgs/curso/trabajador800.jpg');
+  background-size: cover;
+}
+
+.infoCurso{
+  .contenidoCurso{
+    padding: 5%;
+  }
+}
+
+
+@import 'curso/small';
+@import 'curso/medium';
+@import 'curso/large';
+@import 'curso/xLarge';

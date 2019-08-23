@@ -27,6 +27,50 @@
   }
 }
 
+.infoCurso{
+  img{
+    width: 100%;
+  }
+  .curso{
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .tituloCurso{
+    padding: 3% 2%;
+    background-color: $blueBackground;
+    h2{
+      color: #f1f1f1;
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+  .contenidoCurso{
+    padding: 7% 0;
+  }
+  .buttonSection{
+    .row{
+      .col-6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    h3,img{
+      float: left;
+    }
+    img{
+      width: 50px;
+    }
+  }
+  h3{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .imgCurso{
+    width: 100%;
+  }
+}
+
 @import 'cursos/small';
 @import 'cursos/medium';
 @import 'cursos/large';
