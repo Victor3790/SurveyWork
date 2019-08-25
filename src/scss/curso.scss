@@ -3,7 +3,7 @@
 @import "cursos";
 
 #topBanner{
-  background-image: url('../imgs/curso/banner_top800.jpg');
+  background-image: url('../imgs/curso/bannerTopCurso800.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +25,8 @@
 
 .sliderCurso{
   margin-top: 7%;
-  .cursoImg{
+  overflow: hidden;
+  .cursoImgSlider{
     width: 50%!important;
     margin: 0 auto;
   }

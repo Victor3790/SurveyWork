@@ -10,7 +10,8 @@ module.exports = {
     mode: 'production',
     entry: {
       indexEntry: './src/indexEntry.js',
-      cursosEntry: './src/cursosEntry.js'
+      cursoEntry: './src/cursoEntry.js',
+      resumenEntry: './src/resumenEntry.js'
     },
     output: {
       filename: 'js/[name].js'
@@ -83,9 +84,22 @@ module.exports = {
         }*/
       }),
       new HtmlWebpackPlugin({
-        filename: 'cursos.html',
-        template: path.resolve(__dirname, 'src/cursos.html'),
-        chunks: ['cursosEntry']
+        filename: 'resumen.html',
+        template: path.resolve(__dirname, 'src/resumen.html'),
+        chunks: ['resumenEntry']
+        /*minify: {
+          collapseWhitespace: true,
+          removeComments: true,
+          removeRedundantAttributes: true,
+          removeScriptTypeAttributes: true,
+          removeStyleLinkTypeAttributes: true,
+          useShortDoctype: true
+        }*/
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'curso.html',
+        template: path.resolve(__dirname, 'src/curso.html'),
+        chunks: ['cursoEntry']
         /*minify: {
           collapseWhitespace: true,
           removeComments: true,

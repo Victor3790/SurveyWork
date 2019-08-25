@@ -1,4 +1,15 @@
 // Extra large devices (large desktops, 1200px and up)
 @include media-breakpoint-up(xl)  {
+  .sliderCurso{
+    .cursoImg{
+      width: 45%!important;
+    }
+  }
 
+  .imgCurso{
+    img{
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
 }
