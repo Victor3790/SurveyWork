@@ -1,4 +1,31 @@
 // Large devices (desktops, 992px and up)
 @include media-breakpoint-up(lg) {
-
+  #detallesCurso{
+    .infoDetalle{
+      .expositor{
+        .imgExpositor, .detalleExpositor{
+          width: 50%;
+          float: left;
+        }
+        .imgExpositor{
+          img{
+            width: 60%;
+          }
+        }
+      }
+    }
+    .botonSidebar{
+      div{
+        h3{
+          width: 80%;
+        }
+        img{
+          width: 20%;
+        }
+      }
+    }
+    .tituloSidebar{
+      padding: 2% 5%;
+    }
+  }
 }

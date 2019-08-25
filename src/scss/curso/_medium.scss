@@ -4,6 +4,30 @@
     background-image: url('../imgs/curso/banner_top2400.jpg');
   }
   #bottomBanner{
-    background-image: url('../imgs/curso/trabajador1600.jpg');
+    background-image: url('../imgs/curso/fondoBottomBanner2000.jpg');
+  }
+
+  .sliderCurso{
+    margin-top: 7%;
+    .cursoImg{
+      width: 90%!important;
+      margin: 0 auto;
+    }
+    .brandButton{
+      width: 40px !important;
+      top: 8px;
+    }
+  }
+
+  #detallesCurso{
+    .infoDetalle{
+      .expositor{
+        .imgExpositor{
+          img{
+            width: 20%;
+          }
+        }
+      }
+    }
   }
 }

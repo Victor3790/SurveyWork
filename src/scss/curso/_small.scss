@@ -1,4 +1,36 @@
 // Small devices (landscape phones, 576px and up)
 @include media-breakpoint-up(sm){
-  
+
+  #detallesCurso{
+      .tituloDetalle{
+        h3{
+          width: 80%;
+        }
+        .flecha{
+          width: 20%;
+        }
+      }
+
+      .infoDetalle{
+        .expositor{
+          .imgExpositor{
+            img{
+              width: 35%;
+            }
+          }
+        }
+      }
+
+      .botonSidebar{
+        div{
+          h3{
+            width: 90%;
+          }
+          img{
+            width: 10%;
+          }
+        }
+      }
+  }
+
 }

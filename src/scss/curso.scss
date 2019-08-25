@@ -13,7 +13,7 @@
 }
 
 #bottomBanner{
-  background-image: url('../imgs/curso/trabajador800.jpg');
+  background-image: url('../imgs/curso/fondoBottomBanner800.jpg');
   background-size: cover;
 }
 
@@ -23,6 +23,127 @@
   }
 }
 
+.sliderCurso{
+  margin-top: 7%;
+  .cursoImg{
+    width: 50%!important;
+    margin: 0 auto;
+  }
+  .slideButton{
+    width: 30px !important;
+    position: absolute;
+    top: 20px;
+    z-index: 100;
+    cursor: pointer;
+  }
+  #next{
+    right: 1%;
+  }
+
+  #prev{
+    left: 1%;
+  }
+}
+
+#detallesCurso{
+    margin-bottom: 10%;
+    .tituloDetalle{
+      width: 100%;
+      height: 100%;
+      background-color: $yellow;
+      padding: 2%;
+      overflow: hidden;
+      h3, .flecha{
+        float: left;
+      }
+      h3{
+        width: 60%;
+        font-size: 1.5rem;
+        margin: 0;
+      }
+      .flecha{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+          width: 30%;
+        }
+      }
+    }
+    .infoDetalle{
+      padding: 10% 2%;
+      .expositor{
+        .imgExpositor{
+          img{
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom: 7%;
+          }
+        }
+      }
+    }
+    .rotar{
+      transform: rotate(180deg);
+    }
+
+    .tituloSidebar{
+      background-color: $blueBackground;
+      padding: 2%;
+      h3{
+        font-size: 1.5rem;
+        color: $whiteTitle;
+        margin: 0;
+      }
+    }
+
+    .infoSidebar{
+      background-color: $yellow;
+      padding: 10%;
+      color: $blue;
+      font-family: "eurostileLTBold";
+      overflow: hidden;
+    }
+    .botonSidebar{
+      background-color: $yellow;
+      overflow: hidden;
+      padding-bottom: 5%;
+      div{
+        width: 80%;
+        margin: 0 auto;
+        padding: 3% 2%;
+        background-color: $blueBackground;
+        color: $whiteTitle;
+        overflow: hidden;
+        h3, img{
+          float: left;
+        }
+        h3{
+          width: 80%;
+          text-align: center;
+        }
+        img{
+          width: 20%
+        }
+      }
+    }
+    .infoGeneral{
+      margin-bottom: 7%;
+    }
+    .procesoInscripcion{
+      font-family: "eurostileLTMedium";
+      p,img{
+        float: left;
+      }
+      p{
+        width: 85%;
+      }
+      img{
+        width: 15%;
+      }
+    }
+}
 
 @import 'curso/small';
 @import 'curso/medium';
