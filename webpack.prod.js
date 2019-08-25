@@ -14,7 +14,7 @@ module.exports = {
       resumenEntry: './src/resumenEntry.js'
     },
     output: {
-      filename: 'js/[name].js'
+      filename: 'js/[name][hash].js'
     },
     optimization: {
       minimizer: [
@@ -42,7 +42,7 @@ module.exports = {
             {
               loader: 'html-loader',
               options: {
-                name: '[name].[ext]'
+                name: '[name][hash].[ext]'
               }
             }
           ]
@@ -53,7 +53,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
               outputPath: 'imgs',
-              name: '[name].[ext]'
+              name: '[name][hash].[ext]'
             }
           }
         },
@@ -63,7 +63,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
               outputPath: 'fonts',
-              name: '[name].[ext]'
+              name: '[name][hash].[ext]'
             }
           }
         }
@@ -110,7 +110,7 @@ module.exports = {
         }*/
       }),
       new MiniCssExtractPlugin({
-        filename: 'css/[name].css'
+        filename: 'css/[name][hash].css'
       }),
       new CleanWebpackPlugin(),
       new webpack.ProvidePlugin({
