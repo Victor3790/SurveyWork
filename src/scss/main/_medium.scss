@@ -19,4 +19,14 @@
       }
     }
   }
+
+  footer{
+    #footerContact{
+      font-size: 0.7rem;
+      display: flex;
+      div:nth-child(2){
+        flex-grow: 4;
+      }
+    }
+  }
 }
