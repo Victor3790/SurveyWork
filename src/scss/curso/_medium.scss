@@ -7,9 +7,18 @@
     background-image: url('../imgs/curso/fondoBottomBanner2000.jpg');
   }
 
+  .infoCurso{
+    .imgCurso{
+      margin: 0;
+      img{
+        width: 80%;
+      }
+    }
+  }
+
   .sliderCurso{
     margin-top: 7%;
-    .cursoImg{
+    .cursoImgSlider{
       width: 90%!important;
       margin: 0 auto;
     }

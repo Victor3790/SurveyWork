@@ -1,5 +1,13 @@
 // Large devices (desktops, 992px and up)
 @include media-breakpoint-up(lg) {
+  .infoCurso{
+    .imgCurso{
+      img{
+        width: 70%;
+      }
+    }
+  }
+  
   #detallesCurso{
     .infoDetalle{
       .expositor{
